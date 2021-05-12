@@ -1,0 +1,27 @@
+#Simple-Duels ........... Join our discord for support: https://discord.gg/G3jyFxf6
+#Plugin is currently in beta, please report any bugs you find on our discord.
+#Suggestions would also be helpful =)
+
+#This plugin holds multiple matches in a single arena to use the least amount of server resources
+#It currently does not save any data own its own and is made to be compatible with any other plugin
+
+#The following commands are performed by the console (so you can put anything here)
+Duel-End-Commands:
+  - kitbattle coins add %winner% 1000
+  - kitbattle coins remove %loser% 1000
+
+
+#You need to create a world named "combo" for this to work
+#I recommend using RandomKb plugin for combo knockback (If you do, make sure to set this value less than randomKb's combo ticks)
+#Also dont forget to create whitelisted combo arenas
+Combo-Ticks: 4
+
+
+Messages:
+  - Request: "%&c&lDUELS: &6&l%player% &e&lhas sent a duel request%"
+  - Match-End: "&c&l(Click-Here)"
+  - Click-Here: "&7&m--------&7 Match Stats &7&m--------"
+  
+  
+Arenas-World: maps
+  

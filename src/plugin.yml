@@ -1,0 +1,6 @@
+main: me.mustafa.duels.Main
+name: Duels
+author: Mustafaa
+version: 0.1(beta)
+depend: [ProtocolLib]
+soft-depend: [Multiverse-Core]
